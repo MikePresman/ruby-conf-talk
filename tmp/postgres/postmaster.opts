@@ -1,0 +1,1 @@
+/nix/store/smngl7zwd4mcz426w18p7lnx08m52im0-postgresql-17.5/bin/postgres "-c" "unix_socket_directories=" "-c" "timezone=UTC" "-c" "fsync=off" "-c" "synchronous_commit=off" "-c" "full_page_writes=off"

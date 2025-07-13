@@ -88,7 +88,7 @@
 
             clean = callPackage ./nix/scripts/clean.nix { };
 
-            runner = callPackage ./nix/scripts/runner.nix {
+            dev = callPackage ./nix/scripts/dev.nix {
               # dev takes a variable services
               services = callPackage ./nix/services { };
             };
@@ -129,7 +129,7 @@
               pkgs.nodePackages.pnpm
               flake.packages.postgresql
               flake.packages.redis
-              flake.packages.runner
+              flake.packages.dev
               flake.packages.clean
               flake.packages.golangci-lint
               flake.packages.glibcLocales
