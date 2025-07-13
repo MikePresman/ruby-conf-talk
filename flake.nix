@@ -38,7 +38,7 @@
 #   aarch64-linux = { packages = ...; devShell = ... };
 #   ...
 # }
-
+# Multi system support !!!!
   outputs = { self, flake-utils, nixpkgs }:
     (flake-utils.lib.eachSystem [
       "x86_64-linux"
@@ -49,9 +49,6 @@
 
 # ✅ nixpkgs.lib.fix (flake: let ... in { ... })
 # This is a trick that allows the flake variable (the thing we’re returning) to refer to itself — so it can use its own outputs inside the body (e.g., flake.packages.go).
-
-# It’s like self-reference or recursion — Nix calls it a fixpoint combinator.
-
       (system: nixpkgs.lib.fix (flake:
         let
           pkgs = nixpkgs.legacyPackages.${system};
@@ -66,7 +63,6 @@
               };
             };
           };
-
 
 
 # Sneaky but Powerful
@@ -130,7 +126,6 @@
           devShell = pkgs.mkShell {
             buildInputs = with pkgs; [
               flake.packages.go
-              flake.packages.nodejs
               pkgs.nodePackages.pnpm
               flake.packages.postgresql
               flake.packages.redis
@@ -142,7 +137,6 @@
 
     # Comes from here as well -> Just we dont evaluate customize it with a variable in the packages step 
     # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-
               git
               protobuf
               protoc-gen-go

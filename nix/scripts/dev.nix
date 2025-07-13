@@ -55,6 +55,6 @@ writeShellScriptBin "dev" ''
   ${compileServices services}
 '' // {
   meta = with lib; {
-    description = "Runs all the services necessary for Ambien development";
+    description = "Runs all the services necessary for Ruby Conf development";
   };
 }

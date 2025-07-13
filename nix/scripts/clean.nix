@@ -19,6 +19,6 @@ writeShellScriptBin "clean" ''
   ${git}/bin/git clean -xdf ${lib.concatStringsSep " " (builtins.map (file: "-e ${file}") keepFiles)}
 '' // {
   meta = {
-    description = "Reset Ambien back to a clean state as if it was cloned for the first time";
+    description = "Reset Ruby Conf back to a clean state as if it was cloned for the first time";
   };
 }
