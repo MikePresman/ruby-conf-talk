@@ -104,6 +104,9 @@
 
             postgresql = pkgs.postgresql_17;
 
+            # todo - add cowsay
+            cowsay = pkgs.cowsay;
+
             redis = pkgs.redis;
 
             google-cloud-sdk = pkgs.google-cloud-sdk;
@@ -129,6 +132,7 @@
               pkgs.nodePackages.pnpm
               flake.packages.postgresql
               flake.packages.redis
+              # flake.packages.cowsay
               flake.packages.dev
               flake.packages.clean
               flake.packages.golangci-lint

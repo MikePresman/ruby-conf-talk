@@ -1,18 +1,13 @@
-2025-07-13 19:24:02.291 EDT [43454] LOG:  starting PostgreSQL 17.5 on aarch64-apple-darwin24.5.0, compiled by clang version 19.1.7, 64-bit
-2025-07-13 19:24:02.293 EDT [43454] LOG:  listening on IPv6 address "::1", port 5432
-2025-07-13 19:24:02.293 EDT [43454] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2025-07-13 19:24:02.295 EDT [43468] LOG:  database system was shut down at 2025-07-13 19:23:10 EDT
-2025-07-13 19:24:02.297 EDT [43454] LOG:  database system is ready to accept connections
-2025-07-13 19:24:03.325 EDT [43484] FATAL:  database "ruby_conf_database" does not exist
-psql: error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "ruby_conf_database" does not exist
-2025-07-13 19:24:03.345 EDT [43486] FATAL:  database "ruby_conf_database" does not exist
-Waiting for postgres to be ready...
-Database ruby_conf_database created
+2025-07-13 19:24:42.331 EDT [43612] LOG:  starting PostgreSQL 17.5 on aarch64-apple-darwin24.5.0, compiled by clang version 19.1.7, 64-bit
+2025-07-13 19:24:42.333 EDT [43612] LOG:  listening on IPv6 address "::1", port 5432
+2025-07-13 19:24:42.333 EDT [43612] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-07-13 19:24:42.335 EDT [43626] LOG:  database system was shut down at 2025-07-13 19:24:38 EDT
+2025-07-13 19:24:42.337 EDT [43612] LOG:  database system is ready to accept connections
 Postgres is up
-2025-07-13 19:24:11.113 EDT [43454] LOG:  received fast shutdown request
-2025-07-13 19:24:11.113 EDT [43454] LOG:  aborting any active transactions
-2025-07-13 19:24:11.116 EDT [43454] LOG:  background worker "logical replication launcher" (PID 43473) exited with exit code 1
-2025-07-13 19:24:11.116 EDT [43465] LOG:  shutting down
-2025-07-13 19:24:11.116 EDT [43465] LOG:  checkpoint starting: shutdown immediate
-2025-07-13 19:24:11.136 EDT [43465] LOG:  checkpoint complete: wrote 936 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.019 s, sync=0.001 s, total=0.021 s; sync files=0, longest=0.000 s, average=0.000 s; distance=4333 kB, estimate=4333 kB; lsn=0/194EBE0, redo lsn=0/194EBE0
-2025-07-13 19:24:11.146 EDT [43454] LOG:  database system is shut down
+2025-07-13 19:24:46.618 EDT [43612] LOG:  received fast shutdown request
+2025-07-13 19:24:46.618 EDT [43612] LOG:  aborting any active transactions
+2025-07-13 19:24:46.621 EDT [43612] LOG:  background worker "logical replication launcher" (PID 43631) exited with exit code 1
+2025-07-13 19:24:46.621 EDT [43624] LOG:  shutting down
+2025-07-13 19:24:46.621 EDT [43624] LOG:  checkpoint starting: shutdown immediate
+2025-07-13 19:24:46.623 EDT [43624] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/194ECD0, redo lsn=0/194ECD0
+2025-07-13 19:24:46.627 EDT [43612] LOG:  database system is shut down

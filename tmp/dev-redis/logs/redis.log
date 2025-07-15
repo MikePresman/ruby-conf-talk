@@ -39,3 +39,51 @@
 43474:M 13 Jul 2025 19:24:11.122 * Saving the final RDB snapshot before exiting.
 43474:M 13 Jul 2025 19:24:11.129 * DB saved on disk
 43474:M 13 Jul 2025 19:24:11.141 # Redis is now ready to exit, bye bye...
+43580:C 13 Jul 2025 19:24:31.334 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+43580:C 13 Jul 2025 19:24:31.334 * Redis version=8.0.3, bits=64, commit=00000000, modified=0, pid=43580, just started
+43580:C 13 Jul 2025 19:24:31.334 * Configuration loaded
+43580:M 13 Jul 2025 19:24:31.334 * Increased maximum number of open files to 10032 (it was originally set to 256).
+43580:M 13 Jul 2025 19:24:31.334 * monotonic clock: POSIX clock_gettime
+43580:M 13 Jul 2025 19:24:31.334 * Running mode=standalone, port=6379.
+43580:M 13 Jul 2025 19:24:31.334 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+43580:M 13 Jul 2025 19:24:31.335 * Server initialized
+43580:M 13 Jul 2025 19:24:31.335 * Reading RDB base file on AOF loading...
+43580:M 13 Jul 2025 19:24:31.335 * Loading RDB produced by version 8.0.3
+43580:M 13 Jul 2025 19:24:31.335 * RDB age 83 seconds
+43580:M 13 Jul 2025 19:24:31.335 * RDB memory usage when created 0.76 Mb
+43580:M 13 Jul 2025 19:24:31.335 * RDB is base AOF
+43580:M 13 Jul 2025 19:24:31.335 * Done loading RDB, keys loaded: 0, keys expired: 0.
+43580:M 13 Jul 2025 19:24:31.335 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+43580:M 13 Jul 2025 19:24:31.335 * DB loaded from append only file: 0.000 seconds
+43580:M 13 Jul 2025 19:24:31.359 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+43580:M 13 Jul 2025 19:24:31.359 * Ready to accept connections tcp
+43580:signal-handler (1752449078) Received SIGINT scheduling shutdown...
+43580:M 13 Jul 2025 19:24:38.435 * User requested shutdown...
+43580:M 13 Jul 2025 19:24:38.435 * Calling fsync() on the AOF file.
+43580:M 13 Jul 2025 19:24:38.445 * Saving the final RDB snapshot before exiting.
+43580:M 13 Jul 2025 19:24:38.452 * DB saved on disk
+43580:M 13 Jul 2025 19:24:38.463 # Redis is now ready to exit, bye bye...
+43632:C 13 Jul 2025 19:24:42.348 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+43632:C 13 Jul 2025 19:24:42.348 * Redis version=8.0.3, bits=64, commit=00000000, modified=0, pid=43632, just started
+43632:C 13 Jul 2025 19:24:42.348 * Configuration loaded
+43632:M 13 Jul 2025 19:24:42.348 * Increased maximum number of open files to 10032 (it was originally set to 256).
+43632:M 13 Jul 2025 19:24:42.348 * monotonic clock: POSIX clock_gettime
+43632:M 13 Jul 2025 19:24:42.349 * Running mode=standalone, port=6379.
+43632:M 13 Jul 2025 19:24:42.349 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+43632:M 13 Jul 2025 19:24:42.349 * Server initialized
+43632:M 13 Jul 2025 19:24:42.349 * Reading RDB base file on AOF loading...
+43632:M 13 Jul 2025 19:24:42.349 * Loading RDB produced by version 8.0.3
+43632:M 13 Jul 2025 19:24:42.349 * RDB age 94 seconds
+43632:M 13 Jul 2025 19:24:42.349 * RDB memory usage when created 0.76 Mb
+43632:M 13 Jul 2025 19:24:42.349 * RDB is base AOF
+43632:M 13 Jul 2025 19:24:42.349 * Done loading RDB, keys loaded: 0, keys expired: 0.
+43632:M 13 Jul 2025 19:24:42.349 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+43632:M 13 Jul 2025 19:24:42.349 * DB loaded from append only file: 0.000 seconds
+43632:M 13 Jul 2025 19:24:42.361 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+43632:M 13 Jul 2025 19:24:42.361 * Ready to accept connections tcp
+43632:signal-handler (1752449086) Received SIGINT scheduling shutdown...
+43632:M 13 Jul 2025 19:24:46.709 * User requested shutdown...
+43632:M 13 Jul 2025 19:24:46.709 * Calling fsync() on the AOF file.
+43632:M 13 Jul 2025 19:24:46.719 * Saving the final RDB snapshot before exiting.
+43632:M 13 Jul 2025 19:24:46.727 * DB saved on disk
+43632:M 13 Jul 2025 19:24:46.741 # Redis is now ready to exit, bye bye...
