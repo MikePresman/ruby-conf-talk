@@ -109,6 +109,8 @@
 
             redis = pkgs.redis;
 
+             metarank = callPackage ./nix/services/metarank.nix { };
+
             google-cloud-sdk = pkgs.google-cloud-sdk;
 
             golangci-lint = pkgs.golangci-lint;
@@ -135,6 +137,8 @@
               # flake.packages.cowsay
               flake.packages.dev
               flake.packages.clean
+              pkgs.openjdk
+              flake.packages.metarank
               flake.packages.golangci-lint
               flake.packages.glibcLocales
               flake.packages.google-cloud-sdk
