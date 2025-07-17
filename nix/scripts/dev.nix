@@ -1,9 +1,9 @@
-{ lib #automatically Injected by callPackage
-, ansifilter #automatically injected by callPackage
-, coreutils #automatically Injected by callPackage
-, moreutils #automatically Injected by callPackage
-, services # gets passed through in flake.nix
-, writeShellScriptBin #automatically Injected by callPackage
+{ lib
+, ansifilter
+, coreutils
+, moreutils
+, services
+, writeShellScriptBin
 }:
 
 let
@@ -55,6 +55,6 @@ writeShellScriptBin "dev" ''
   ${compileServices services}
 '' // {
   meta = with lib; {
-    description = "Runs all the services necessary for Ruby Conf development";
+    description = "Runs all the services necessary for Ambien development";
   };
 }
