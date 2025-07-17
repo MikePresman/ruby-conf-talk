@@ -48,7 +48,7 @@
             golangci-lint = pkgs.golangci-lint;
             glibcLocales = pkgs.glibcLocales;
 
-            ## Metarank CLI
+            # ## Metarank CLI
             metarank = callPackage ./nix/services/metarank.nix { };
 
             ## Output package
