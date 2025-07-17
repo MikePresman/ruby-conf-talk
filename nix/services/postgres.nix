@@ -4,7 +4,7 @@
 
 {
   name = "postgres";
-  ansiColor = "34";
+  ansiColor = "33";
 
   packages = [
     coreutils # sleep

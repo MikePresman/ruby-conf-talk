@@ -68,10 +68,10 @@
               pkgs.nodePackages.pnpm
               flake.packages.postgresql
               flake.packages.redis
-              flake.packages.metarank # CLI
-              flake.packages.dev # CLI 
-              flake.packages.clean # CLI
-              flake.packages.golangci-lint # CLI
+              flake.packages.metarank 
+              flake.packages.dev 
+              flake.packages.clean 
+              flake.packages.golangci-lint 
               flake.packages.glibcLocales
               flake.packages.google-cloud-sdk
               git

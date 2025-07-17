@@ -1,13 +1,13 @@
-2025-07-17 05:43:07.145 EDT [58539] LOG:  starting PostgreSQL 17.5 on aarch64-apple-darwin24.5.0, compiled by clang version 19.1.7, 64-bit
-2025-07-17 05:43:07.147 EDT [58539] LOG:  listening on IPv6 address "::1", port 5432
-2025-07-17 05:43:07.147 EDT [58539] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2025-07-17 05:43:07.149 EDT [58551] LOG:  database system was shut down at 2025-07-17 05:41:06 EDT
-2025-07-17 05:43:07.151 EDT [58539] LOG:  database system is ready to accept connections
+2025-07-17 05:44:01.630 EDT [58988] LOG:  starting PostgreSQL 17.5 on aarch64-apple-darwin24.5.0, compiled by clang version 19.1.7, 64-bit
+2025-07-17 05:44:01.632 EDT [58988] LOG:  listening on IPv6 address "::1", port 5432
+2025-07-17 05:44:01.632 EDT [58988] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-07-17 05:44:01.634 EDT [59004] LOG:  database system was shut down at 2025-07-17 05:43:55 EDT
+2025-07-17 05:44:01.636 EDT [58988] LOG:  database system is ready to accept connections
 Postgres is up
-2025-07-17 05:43:10.500 EDT [58539] LOG:  received fast shutdown request
-2025-07-17 05:43:10.501 EDT [58539] LOG:  aborting any active transactions
-2025-07-17 05:43:10.503 EDT [58539] LOG:  background worker "logical replication launcher" (PID 58560) exited with exit code 1
-2025-07-17 05:43:10.503 EDT [58548] LOG:  shutting down
-2025-07-17 05:43:10.504 EDT [58548] LOG:  checkpoint starting: shutdown immediate
-2025-07-17 05:43:10.506 EDT [58548] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/194F108, redo lsn=0/194F108
-2025-07-17 05:43:10.509 EDT [58539] LOG:  database system is shut down
+2025-07-17 05:46:15.410 EDT [58988] LOG:  received fast shutdown request
+2025-07-17 05:46:15.410 EDT [58988] LOG:  aborting any active transactions
+2025-07-17 05:46:15.412 EDT [58988] LOG:  background worker "logical replication launcher" (PID 59009) exited with exit code 1
+2025-07-17 05:46:15.412 EDT [59002] LOG:  shutting down
+2025-07-17 05:46:15.416 EDT [59002] LOG:  checkpoint starting: shutdown immediate
+2025-07-17 05:46:15.426 EDT [59002] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.014 s; sync files=0, longest=0.000 s, average=0.000 s; distance=107 kB, estimate=107 kB; lsn=0/196A088, redo lsn=0/196A088
+2025-07-17 05:46:15.428 EDT [58988] LOG:  database system is shut down
