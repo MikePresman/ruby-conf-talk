@@ -43,7 +43,7 @@ let
           compileService (i == builtins.length services - 1) service)
         services);
 in
-writeShellScriptBin "dev" ''
+writeShellScriptBin "nix-dev" ''
   set -e
   export PATH=${lib.makeBinPath packages}:$PATH
 
