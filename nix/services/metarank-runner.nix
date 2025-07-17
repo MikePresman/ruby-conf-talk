@@ -9,6 +9,6 @@
   '';
 
   run = ''
-    metarank serve --config metarank/config.yml --data metarank/data
+    metarank serve --config ./metarank/config.yml
   '';
 }

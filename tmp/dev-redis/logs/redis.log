@@ -183,3 +183,27 @@
 55427:M 17 Jul 2025 05:17:36.558 * Saving the final RDB snapshot before exiting.
 55427:M 17 Jul 2025 05:17:36.569 * DB saved on disk
 55427:M 17 Jul 2025 05:17:36.586 # Redis is now ready to exit, bye bye...
+55567:C 17 Jul 2025 05:17:47.238 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+55567:C 17 Jul 2025 05:17:47.238 * Redis version=8.0.3, bits=64, commit=00000000, modified=0, pid=55567, just started
+55567:C 17 Jul 2025 05:17:47.238 * Configuration loaded
+55567:M 17 Jul 2025 05:17:47.238 * Increased maximum number of open files to 10032 (it was originally set to 256).
+55567:M 17 Jul 2025 05:17:47.238 * monotonic clock: POSIX clock_gettime
+55567:M 17 Jul 2025 05:17:47.238 * Running mode=standalone, port=6379.
+55567:M 17 Jul 2025 05:17:47.238 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+55567:M 17 Jul 2025 05:17:47.239 * Server initialized
+55567:M 17 Jul 2025 05:17:47.239 * Reading RDB base file on AOF loading...
+55567:M 17 Jul 2025 05:17:47.239 * Loading RDB produced by version 8.0.3
+55567:M 17 Jul 2025 05:17:47.239 * RDB age 294879 seconds
+55567:M 17 Jul 2025 05:17:47.239 * RDB memory usage when created 0.76 Mb
+55567:M 17 Jul 2025 05:17:47.239 * RDB is base AOF
+55567:M 17 Jul 2025 05:17:47.239 * Done loading RDB, keys loaded: 0, keys expired: 0.
+55567:M 17 Jul 2025 05:17:47.239 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+55567:M 17 Jul 2025 05:17:47.239 * DB loaded from append only file: 0.000 seconds
+55567:M 17 Jul 2025 05:17:47.261 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+55567:M 17 Jul 2025 05:17:47.261 * Ready to accept connections tcp
+55567:signal-handler (1752743874) Received SIGINT scheduling shutdown...
+55567:M 17 Jul 2025 05:17:54.035 * User requested shutdown...
+55567:M 17 Jul 2025 05:17:54.036 * Calling fsync() on the AOF file.
+55567:M 17 Jul 2025 05:17:54.043 * Saving the final RDB snapshot before exiting.
+55567:M 17 Jul 2025 05:17:54.050 * DB saved on disk
+55567:M 17 Jul 2025 05:17:54.062 # Redis is now ready to exit, bye bye...

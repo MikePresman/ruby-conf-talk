@@ -48,6 +48,9 @@
             golangci-lint = pkgs.golangci-lint;
             glibcLocales = pkgs.glibcLocales;
 
+            ## Metarank CLI
+            metarank = callPackage ./nix/services/metarank.nix { };
+
             ## Output package
             ruby-conf = callPackage ./. {
               buildGoModule = pkgs.buildGoModule.override {
@@ -65,9 +68,10 @@
               pkgs.nodePackages.pnpm
               flake.packages.postgresql
               flake.packages.redis
-              flake.packages.dev
-              flake.packages.clean
-              flake.packages.golangci-lint
+              flake.packages.metarank # CLI
+              flake.packages.dev # CLI 
+              flake.packages.clean # CLI
+              flake.packages.golangci-lint # CLI
               flake.packages.glibcLocales
               flake.packages.google-cloud-sdk
               git
@@ -76,6 +80,7 @@
               protoc-gen-go-grpc
               go-migrate
               mkcert
+              openjdk # needed for metarank
             ];
 
             shellHook = ''

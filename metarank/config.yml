@@ -1,0 +1,6 @@
+interactions:
+  - name: click
+    type: click
+    source: event
+
+ranking: []
